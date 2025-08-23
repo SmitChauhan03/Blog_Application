@@ -30,7 +30,8 @@ export class Service{
                 }
             )
         } catch (error) {
-            console.log("Appwrite serive :: createPost :: error", error);
+            // console.log("Appwrite serive :: createPost :: error", error);
+            error;
         }
     }
 
@@ -50,7 +51,8 @@ export class Service{
                 }
             )
         } catch (error) {
-            console.log("Appwrite serive :: updatePost :: error", error);
+            // console.log("Appwrite serive :: updatePost :: error", error);
+            error;
         }
     }
 
@@ -64,7 +66,8 @@ export class Service{
             )
             return true
         } catch (error) {
-            console.log("Appwrite serive :: deletePost :: error", error);
+            // console.log("Appwrite serive :: deletePost :: error", error);
+            error;
             return false
         }
     }
@@ -79,7 +82,8 @@ export class Service{
             
             )
         } catch (error) {
-            console.log("Appwrite serive :: getPost :: error", error);
+            // console.log("Appwrite serive :: getPost :: error", error);
+            error;
             return false
         }
     }
@@ -95,7 +99,8 @@ export class Service{
 
             )
         } catch (error) {
-            console.log("Appwrite serive :: getPosts :: error", error);
+            // console.log("Appwrite serive :: getPosts :: error", error);
+            error;
             return false
         }
     }
@@ -111,7 +116,8 @@ export class Service{
                 file
             )
         } catch (error) {
-            console.log("Appwrite serive :: uploadFile :: error", error);
+            // console.log("Appwrite serive :: uploadFile :: error", error);
+            error;
             return false
         }
     }
@@ -125,7 +131,8 @@ export class Service{
             )
             return true
         } catch (error) {
-            console.log("Appwrite serive :: deleteFile :: error", error);
+            // console.log("Appwrite serive :: deleteFile :: error", error);
+            error;
             return false
         }
     }
