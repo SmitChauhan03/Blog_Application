@@ -156,12 +156,8 @@ function Home() {
     // Posts display
     return (
         <div className="min-h-screen ">
-            {/* Hero Section */}
+            
             <div className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700">
-                {/* Background decoration */}
-                <div className='absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl'></div>
-                <div className='absolute bottom-0 left-0 w-80 h-80 bg-white/10 rounded-full blur-3xl'></div>
-                
                 <div className="relative z-10 py-5">
                     <Container>
                         <div className="text-center text-white">
